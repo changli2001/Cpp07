@@ -17,7 +17,7 @@ class Array{
 
         //member functions
         T &operator[](unsigned int index);
-        T &operator[](unsigned int index) const; /*const ver*/
+        const T &operator[](unsigned int index) const; /*const ver*/
         unsigned int size() const;
 };
 

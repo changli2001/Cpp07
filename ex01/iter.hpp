@@ -23,11 +23,10 @@ void    display(const T &x)
 }
 
 template <typename T , typename F>
-void    iter(T *pointer, int size , F funct)
+void    iter(T *pointer , const size_t size, F funct)
 {
-    for (int i = 0; i < size; i++)
+    for (size_t i = 0; i < size; i++)
     {
         funct(pointer[i]);
     }
-    
 }
