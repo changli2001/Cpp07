@@ -19,7 +19,5 @@
     template <typename T>
     T   max(const T& a, const T& b)
     {
-        T max;
-        (b >= a) ? max = b : max = a;
-        return max;
+        return (b >= a) ?  b : a;
     }

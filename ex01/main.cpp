@@ -18,5 +18,5 @@ int main()
     std::cout << "######### counting size of a string ##########\n";
 
     std::string sarr[3] = {"hello", "world", "!"};
-    iter(sarr, 0, sizeCounting);
+    iter(sarr, 3, sizeCounting);
 }

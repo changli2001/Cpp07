@@ -20,5 +20,5 @@ class Array{
         T &operator[](unsigned int index) const; /*const ver*/
         unsigned int size() const;
 };
-    
-#include "Array.tpp" 
+
+#include "Array.tpp"
